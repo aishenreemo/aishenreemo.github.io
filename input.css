@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+    --color-kizu-bg: #131718;
+    --color-kizu-fg: #CCCCCC;
+    --color-kizu-red: #df5b61;
+    --color-kizu-green: #87c7a1;
+    --color-kizu-orange: #de8f78;
+    --color-kizu-blue: #6791c9;
+    --color-kizu-violet: #bc83e3;
+    --color-kizu-cyan: #70b9cc;
+}
+
+.font-fredoka {
+    font-family: "Fredoka";
+}
+
+.font-kose {
+    font-family: "KosefontJP";
+}
+
+.font-space-mono {
+    font-family: "Space Mono";
+}
