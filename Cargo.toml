@@ -10,6 +10,8 @@ edition = "2021"
 dioxus = { version = "0.6.0", features = ["html"] }
 getrandom = { version = "0.2", features = ["js"] }
 rand = { version = "0.8.0" }
+ron = "0.10.1"
+serde = { version = "1.0.219", features = ["derive"] }
 web-sys = "0.3.77"
 
 [features]

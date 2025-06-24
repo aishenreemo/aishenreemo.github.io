@@ -40,7 +40,7 @@ img {
 
 button {
     background-color: var(--color-bg);
-    color: var(--color-green);
+    color: var(--color-fg);
     padding: 0.5rem;
     font-size: 0.8rem;
     outline: none;
@@ -49,13 +49,13 @@ button {
 }
 
 button:hover {
-    background-color: var(--color-green);
+    background-color: var(--color-blue);
     color: var(--color-bg);
     font-weight: bolder;
 }
 
 button:active {
-    background-color: var(--color-blue);
+    background-color: var(--color-red);
     border: none;
 }
 

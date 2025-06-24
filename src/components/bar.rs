@@ -1,7 +1,6 @@
 use dioxus::prelude::*;
 
 use crate::components::parallax::ParallaxDiv;
-use crate::use_parallax;
 use crate::ParallaxVector;
 
 const FAVICON: Asset = asset!("/assets/images/favicon.svg");

@@ -4,6 +4,7 @@ use components::background::Background;
 use components::bar::Bar;
 use components::parallax::ParallaxDiv;
 use components::parallax::ParallaxImage;
+use components::technologies::Technologies;
 use dioxus::prelude::*;
 
 mod components;
@@ -108,7 +109,7 @@ fn App() -> Element {
 
             div {
                 id: "technologies",
-                class: "pt-[10vh] lg:pt-0 mt-[10vh] w-3/4 m-auto",
+                class: "pt-[10vh] lg:pt-0 my-[10vh] w-3/4 m-auto",
 
                 ParallaxImage {
                     offset: (-50., 0.),
@@ -116,15 +117,15 @@ fn App() -> Element {
                     class: "relative left-1/2 w-2/3 pb-4 mb-4 min-w-[320px]",
                     src: asset!("/assets/images/technologies.svg"),
                 }
-            }
 
-            div {
-                style: "height: 100%;",
+                Technologies {
+                    category: components::technologies::TechnologyCategory::Softwares,
+                }
             }
 
             div {
                 id: "projects",
-                class: "pt-[10vh] lg:pt-0 w-3/4 m-auto",
+                class: "pt-[10vh] lg:pt-0 mt-[10vh] w-3/4 m-auto",
 
                 ParallaxImage {
                     offset: (-50., 0.),
@@ -132,10 +133,6 @@ fn App() -> Element {
                     class: "relative left-1/2 w-2/3 pb-4 mb-4 min-w-[320px]",
                     src: asset!("/assets/images/projects.svg"),
                 }
-            }
-
-            div {
-                style: "height: 100%;",
             }
         }
     }
