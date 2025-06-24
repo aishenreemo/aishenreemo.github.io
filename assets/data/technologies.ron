@@ -1,0 +1,35 @@
+(
+    languages: [
+        (name: "Rust", icon: "Rust_logo.png"),
+        (name: "C", icon: "C_logo.png"),
+        (name: "Javascript", icon: "Javascript_logo.png"),
+        (name: "Typescript", icon: "Typescript_logo.png"),
+        (name: "Python", icon: "Python_logo.webp"),
+        (name: "Java", icon: "Java_logo.png"),
+    ],
+    frameworks: [
+        (name: "React", icon: "React_logo.png"),
+        (name: "Dioxus", icon: "Dioxus_logo.png"),
+        (name: "Tauri", icon: "Tauri_logo.webp"),
+        (name: "Bevy", icon: "Bevy_logo.png"),
+        (name: "Godot", icon: "Godot_logo.svg"),
+    ],
+    libraries: [
+        (name: "SDL Library", icon: "SDL_logo.png"),
+        (name: "Pygame", icon: "Pygame_logo.png"),
+    ],
+    platforms: [
+        (name: "Arch Linux", icon: "ArchLinux_logo.webp"),
+        (name: "Linux Mint", icon: "LinuxMint_logo.png"),
+        (name: "Windows", icon: "Windows_logo.png"),
+        (name: "WSL", icon: "WSL_logo.png"),
+    ],
+    softwares: [
+        (name: "GIMP", icon: "GIMP_logo.svg"),
+        (name: "Inkscape", icon: "Inkscape_logo.png"),
+        (name: "Neovim", icon: "Neovim_logo.svg"),
+        (name: "LaTeX", icon: "LaTeX_logo.png"),
+        (name: "GNU Troff (ms)", icon: "GNU_logo.png"),
+        (name: "GNU Parallel", icon: "GNU_logo.png"),
+    ],
+)
