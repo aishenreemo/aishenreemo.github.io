@@ -40,7 +40,7 @@ pub fn Technologies(props: TechnologiesProps) -> Element {
 
     let mut active_tab = use_signal(|| props.category);
     let active = |a: TechnologyCategory, b: TechnologyCategory| {
-        format!("{}", if a == b { "hover:!text-kizu-bg !text-kizu-blue" } else { "" })
+        format!("{}", if a == b { "active" } else { "" })
     };
     let technologies_data: TechnologiesData = use_hook(|| ron::from_str(TECHNOLOGIES_RON_STR).expect("Failed to deserialize."));
 

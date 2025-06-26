@@ -48,7 +48,8 @@ button {
     border-radius: 0.1rem;
 }
 
-button:hover {
+button:hover,
+button.active {
     background-color: var(--color-blue);
     color: var(--color-bg);
     font-weight: bolder;

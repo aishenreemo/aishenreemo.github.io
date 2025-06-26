@@ -119,7 +119,7 @@ fn App() -> Element {
                 }
 
                 Technologies {
-                    category: components::technologies::TechnologyCategory::Softwares,
+                    category: components::technologies::TechnologyCategory::Languages,
                 }
             }
 
