@@ -39,19 +39,19 @@ pub fn Bar(props: BarProps) -> Element {
             }
 
             a {
-                class: "px-2 backdrop-blur-lg no-underline border-b-0 text-kizu-fg hover:border-b \
+                class: "sm:block hidden px-2 backdrop-blur-lg no-underline border-b-0 text-kizu-fg hover:border-b \
                     hover:border-kizu-fg hover:font-bold transition-all duration-100 active:text-kizu-red",
                 href: "#about",
                 "About"
             }
             a {
-                class: "px-2 backdrop-blur-lg no-underline border-b-0 text-kizu-fg hover:border-b \
+                class: "sm:block hidden px-2 backdrop-blur-lg no-underline border-b-0 text-kizu-fg hover:border-b \
                     hover:border-kizu-fg hover:font-bold transition-all duration-100 active:text-kizu-red",
                 href: "#technologies",
                 "Technologies"
             }
             a {
-                class: "px-2 backdrop-blur-lg no-underline border-b-0 text-kizu-fg hover:border-b \
+                class: "sm:block hidden px-2 backdrop-blur-lg no-underline border-b-0 text-kizu-fg hover:border-b \
                     hover:border-kizu-fg hover:font-bold transition-all duration-100 active:text-kizu-red",
                 href: "#projects",
                 "Projects"

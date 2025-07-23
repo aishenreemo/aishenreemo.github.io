@@ -45,7 +45,6 @@ pub fn ParallaxDiv(props: ParallaxDivProps) -> Element {
         div {
             style: "{transform}",
             class: props.class,
-            id: props.id,
             {props.children}
         }
     }
