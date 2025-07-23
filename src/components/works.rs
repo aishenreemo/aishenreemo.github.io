@@ -31,15 +31,15 @@ pub fn Works() -> Element {
         ParallaxDiv {
             offset: (0., 0.),
             multiplier: (-0.01, -0.01),
-            class: "flex flex-col-reverse md:flex-row gap-4 mx-auto p-10 max-w-[960px] rounded-md mb-10",
+            class: "flex flex-col-reverse md:flex-row gap-4 mx-auto max-w-[960px] rounded-md mb-10",
 
             div {
-                class: "flex flex-wrap justify-center self-stretch xl:self-start gap-6 overflow-y-scroll w-full p-2 max-h-[560px]",
+                class: "flex flex-wrap justify-center flex-initial self-stretch md:self-start gap-6 overflow-y-scroll p-2 max-h-[560px]",
 
                 for (i, project) in works_data.iter().enumerate() {
                     if Some(i) != active_project() {
                         div {
-                            class: "flex flex-col items-center basis:1/2 md:basis-1/4 min-w-48 p-2 border border-kizu-fg/50 rounded-md bg-kizu-fg/10 hover:bg-kizu-fg/20 transition-colors",
+                            class: "flex flex-col items-center basis-1/16 md:basis-1/4 min-w-48 p-2 border border-kizu-fg/50 rounded-md bg-kizu-fg/10 hover:bg-kizu-fg/20 transition-colors",
                             onclick: move |_| active_project.set(Some(i)),
                             img {
                                 class: "w-full h-32 object-fill",
@@ -58,15 +58,15 @@ pub fn Works() -> Element {
 
             if let Some(i) = active_project() {
                 div {
-                    class: "flex flex-col ease-in-out w-full bg-kizu-bg",
+                    class: "flex flex-col ease-in-out w-full md:min-w-88 bg-kizu-bg max-h-[560px]",
                     img {
-                        class: "w-full h-56 object-fill",
+                        class: "w-full h-56 object-cover",
                         src: "/assets/images/{works_data[i].image_url}",
                         alt: "{works_data[i].title}",
                     }
 
                     div {
-                        class: "p-4 pt-0 flex flex-col flex-grow overflow-y-scroll max-h-[560px]",
+                        class: "p-4 pt-0 flex flex-col flex-grow overflow-y-scroll",
 
                         div {
                             class: "p-4",

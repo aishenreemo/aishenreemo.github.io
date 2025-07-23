@@ -40,7 +40,7 @@ fn App() -> Element {
 
             div {
                 id: "about",
-                class: "pt-[10vh] lg:pt-0 w-3/4 mx-auto",
+                class: "pt-[10vh] lg:pt-0 w-7/8 sm:w-3/4 mx-auto",
 
                 ParallaxImage {
                     offset: (-50., 0.),
@@ -54,7 +54,7 @@ fn App() -> Element {
 
             div {
                 id: "technologies",
-                class: "pt-[10vh] lg:pt-0 my-[10vh] w-3/4 m-auto",
+                class: "pt-[10vh] lg:pt-0 my-[10vh] w-7/8 sm:w-3/4 m-auto",
 
                 ParallaxImage {
                     offset: (-50., 0.),
@@ -70,7 +70,7 @@ fn App() -> Element {
 
             div {
                 id: "projects",
-                class: "pt-[10vh] lg:pt-0 mt-[10vh] w-3/4 m-auto",
+                class: "pt-[10vh] lg:pt-0 mt-[10vh] w-7/8 sm:w-3/4 m-auto",
 
                 ParallaxImage {
                     offset: (-50., 0.),
