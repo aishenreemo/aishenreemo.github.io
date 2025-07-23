@@ -1,0 +1,57 @@
+[
+    (
+        title: "Stratonotes",
+        description: "STRATONOTES is a Note application that generates summaries and reports curated from user entries, allows them to monitor and track any progress they made through the overview and summary of how their week went.",
+        technologies: [
+            (name: "React", url: "https://placehold.co/32x32/E06C2D/FFFFFF?text=Re"),
+            (name: "Tailwind CSS", url: "https://placehold.co/32x32/4A4A4A/FFFFFF?text=Tl"),
+            (name: "Tauri", url: "https://placehold.co/32x32/38B2AC/FFFFFF?text=Ta"),
+            (name: "Typescript", url: "https://placehold.co/32x32/FFCA28/FFFFFF?text=Ts"),
+            (name: "Rust", url: "https://placehold.co/32x32/F24E1E/FFFFFF?text=Rs"),
+        ],
+        image_url: "Stratonotes_banner.png",
+        project_link: "https://github.com/aishenreemo/stratonotes",
+    ),
+    (
+        title: "Phytopia",
+        description: "A simple 2D solar system simulation game written in Godot.",
+        technologies: [
+            (name: "Godot", url: "https://placehold.co/32x32/3776AB/FFFFFF?text=Gd"),
+            (name: "Sqlite", url: "https://placehold.co/32x32/EE4C2C/FFFFFF?text=Sql"),
+            (name: "Gdscript", url: "https://placehold.co/32x32/009688/FFFFFF?text=Gs"),
+        ],
+        image_url: "Phytopia_banner.png",
+        project_link: "https://github.com/aishenreemo/phytopia",
+    ),
+    (
+        title: "Hyprdots",
+        description: "My Arch Linux Wayland Dotfiles.",
+        technologies: [
+            (name: "Arch linux", url: "https://placehold.co/32x32/92338F/FFFFFF?text=Al"),
+            (name: "Wayland", url: "https://placehold.co/32x32/000000/FFFFFF?text=Wl"),
+            (name: "Hyprland", url: "https://placehold.co/32x32/607D8B/FFFFFF?text=Hl"),
+        ],
+        image_url: "Hyprdots_banner.png",
+        project_link: "https://github.com/aishenreemo/hyprdots",
+    ),
+    (
+        title: "Old portfolio",
+        description: "Portfolio website written in plain HTML/CSS/JS, hosted by Github Pages.",
+        technologies: [
+            (name: "HTML", url: "https://placehold.co/32x32/3178C6/FFFFFF?text=H"),
+            (name: "CSS", url: "https://placehold.co/32x32/E0234E/FFFFFF?text=C"),
+            (name: "JS", url: "https://placehold.co/32x32/2496ED/FFFFFF?text=Js"),
+        ],
+        image_url: "OldPortfolio_banner.png",
+        project_link: "https://aishenreemo.github.io/old-portfolio",
+    ),
+    (
+        title: "Rust AI",
+        description: "Hobby project of creating neural networks from scratch.",
+        technologies: [
+            (name: "Rust", url: "https://placehold.co/32x32/3776AB/FFFFFF?text=Rs"),
+        ],
+        image_url: "RustAI_banner.svg",
+        project_link: "https://github.com/aishenreemo/rustai",
+    ),
+]
